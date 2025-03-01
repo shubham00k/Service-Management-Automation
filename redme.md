@@ -1,13 +1,13 @@
 # Service Management Automation on EC2 using Ansible
 
-📌 **Automates starting, stopping, and enabling services (httpd, nginx, docker) on AWS EC2 instances using Ansible.**  
+**Automates starting, stopping, and enabling services (httpd, nginx, docker) on AWS EC2 instances using Ansible.**  
 
 ## Overview
 This project uses **Ansible** to automate the management of system services on remote AWS EC2 instances.  
 You can use it to:  
-✅ Install services like **Apache (httpd), Nginx, or Docker**  
-✅ Start/stop services automatically  
-✅ Enable services to run at boot  
+ -Install services like **Apache (httpd), Nginx, or Docker**  
+ -Start/stop services automatically  
+ -Enable services to run at boot  
 
 ## Prerequisites
 ### 1. Install Ansible
