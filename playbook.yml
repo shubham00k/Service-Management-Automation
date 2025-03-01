@@ -1,0 +1,15 @@
+---
+- name: Manage Services on EC2
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Ensure httpd is installed
+      yum:
+        name: httpd
+        state: present
+
+    - name: Ensure httpd is started and enabled
+      service:
+        name: httpd
+        state: started
+        enabled: yes
